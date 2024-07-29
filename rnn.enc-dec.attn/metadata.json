@@ -1,0 +1,21 @@
+{
+  "model": {
+    "src_vocab_size": 404,
+    "tgt_vocab_size": 404,
+    "embd_dims": 256,
+    "hidden_size": 512,
+    "dropout": 0.2,
+    "num_layers": 1
+  },
+  "data": {
+    "src_padding": 18,
+    "tgt_padding": 18
+  },
+  "training": {
+    "num_epochs": 50,
+    "batch_size": 128,
+    "shuffle": true,
+    "save_steps": 500,
+    "eval_steps": 100
+  }
+}
